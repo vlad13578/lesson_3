@@ -1,0 +1,372 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@400;700&display=swap");
+
+@font-face {
+    font-family: "gilroy";
+    src: url("../fonts/gilroy-regular-webfont.woff2") format("woff2"),
+        url("../fonts/gilroy-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "gilroy";
+    src: url("../fonts/gilroy-bold-webfont.woff2") format("woff2"),
+        url("../fonts/gilroy-bold-webfont.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ОБНУЛЕННЯ СТИЛІВ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+li {
+    list-style: none;
+}
+a,
+a:visited {
+	font-family: "Handjet", cursive;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lumanosimo", cursive;
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    vertical-align: top;
+}
+html {
+    font-size: 16px; /* за замовчуванням */
+}
+body {
+    /* font-family: "Gilroy", sans-serif; */
+	font-family: "gilroy", sans-serif;
+    line-height: 1;
+}
+/* ------------------------------ */
+
+/* Беремо шрифти з собою!!! */
+
+/* Два варіанти підключення сімейств шрифту */
+
+/* (1) Віддалене підключення. Підключення із зовнішнього джерела (за посиланням) */
+/* (2) Локальне підключення. Підключення локальних файлів */
+
+/* --------------- */
+
+/* Властивості шрифту */
+
+/* font-family: "Ім'я шрифту", "Ім'я шрифту", ..., тип шрифту */
+/*
+Встановлює сімейство шрифту
+Типи шрифту:
+serif - шрифти із зарубками (антиквенні), типу Times;
+sans-serif - рубані шрифти (шрифти без зарубок або гротески), типовий представник - Arial;
+cursive - курсивні шрифти;
+fantasy - декоративні шрифти;
+monospace - моноширинні шрифти, ширина кожного символу в такому сімействі однакова (шрифт Courier).
+*/
+
+/*.text {
+    font-family: "Poppins", sans-serif;
+}*/
+
+/*
+font-size: розмір [px,%,em,rem]
+Визначає розмір шрифту елемента.
+*/
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    color: #abe064;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 400;
+    color: #d35151;
+    margin-bottom: 10px;
+}
+img {
+    margin-bottom: 10px;
+}
+
+/*
+font-style:
+Визначає накреслення шрифту - звичайне, курсивне або похиле.
+normal - Звичайне накреслення тексту.
+italic - Курсивне накреслення. 
+oblique - Похиле накреслення. Курсив і похилий шрифт за всієї їхньої схожості не одне й те саме. Курсив це спеціальний шрифт, що імітує рукописний, похилий же утворюється шляхом нахилу звичайних знаків вправо. 
+*/
+
+/*.text {
+    font-style: italic;
+}*/
+
+/*
+font-weight:
+Встановлює насиченість шрифту.
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+
+/*.text {
+    font-weight: 700;
+}*/
+
+/* Властивості тексту */
+
+/*
+color
+Визначає колір тексту. Для завдання кольорів зазвичай використовуються 
+числа в шістнадцятковому коді, 
+або за допомогою RGB.
+*/
+
+/*.text {
+    color: rgb(162, 166, 176);
+    color: #a2a6b0;
+}*/
+
+/*
+text-align
+Визначає горизонтальне вирівнювання тексту та рядкових об'єктів у межах елемента. 
+center - Вирівнювання тексту по центру.
+justify - Вирівнювання по ширині, що означає одночасне вирівнювання по лівому і правому краю. Щоб виконати цю дію браузер у цьому випадку додає пробіли між словами.
+left - Вирівнювання тексту по лівому краю. 
+right - Вирівнювання тексту по правому краю.
+*/
+
+/*.text {
+    text-align: center;
+}*/
+/*.image {
+}*/
+
+/*
+text-decoration
+Додає оформлення тексту у вигляді його підкреслення, перекреслення, лінії над текстом і миготіння. 
+Одночасно можна застосувати більше одного стилю, перераховуючи значення через пробіл. Ця властивість успадковується і може приймати значення:
+line-through - Створює перекреслений текст.
+overline - Лінія проходить над текстом.
+underline - Встановлює підкреслений текст. 
+none - Скасовує всі ефекти, зокрема й підкреслення у посилань, яке задано за замовчуванням.
+*/
+.link_list {
+    margin-bottom: 1ch;
+}
+.a_1 {
+    text-decoration: underline;
+}
+.a_2 {
+    text-decoration: none;
+}
+.a_3 {
+    text-decoration: line-through;
+}
+.a_4 {
+    text-decoration: overline;
+}
+
+/*.text {
+    text-decoration: none;
+}*/
+
+/*.text span {
+    text-decoration: line-through;
+}*/
+
+/*
+text-shadow: горизонтальне_зміщення вертикальне_зміщення розмір колір;
+Додає тінь до тексту.
+Прмер text-shadow: 1px 1px 1px #000;
+*/
+
+/*.text {
+    text-shadow: 1px 1px 1px #000;
+    text-shadow: -5px -5px 1px #000;
+}*/
+.text_1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 5px #000;
+}
+.text_2 {
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom: 10px;
+}
+.text_3 {
+    font-size: 15px;
+    text-shadow: -5px -5px 3px #000;
+    margin-bottom: 10px;
+}
+.text_4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+	color: #e4da51;
+}
+.text_5 {
+	font-size: 25px;
+    margin-bottom: 10px;
+	font-weight: bold;
+}
+
+/*
+text-transform
+Керує перетворенням тексту на великі або прописні символи.
+capitalize - Перший символ кожного слова в реченні буде заголовним. Решта символів свій вигляд не змінюють.
+lowercase - Усі символи тексту стають малими (нижній регістр). 
+uppercase - Усі символи тексту стають великими (верхній регістр).
+none - Не змінює регістр символів.
+*/
+/*.text {
+    text-transform: none;
+}*/
+.list_item_1{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 15px;
+	line-height: 150%;
+	color: #e45151;
+}
+.list_item_2{
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: #51e476;
+	letter-spacing: 5px;
+}
+.list_item_3{
+	text-transform: lowercase;
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: #5167e4;
+	word-spacing: 10px;
+}
+.list_item_4{
+	text-transform: none;
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: #e4da51;
+	text-indent: 50px;
+}
+.text_6{
+	font-size: 10px;
+}
+
+/*
+line-height
+Встановлює міжрядковий інтервал тексту. Широко застосовується при верстці тексту.
+*/
+
+/*.text {
+    line-height: 150%;
+}*/
+
+/*
+letter-spacing
+Визначає інтервал між символами (буквами). Використовується коли потрібно розрядити текст.
+*/
+/*.text {
+    letter-spacing: 1px;
+}*/
+
+/*
+word-spacing
+Визначає інтервал між словами. Використовується коли потрібно розрядити текст.
+*/
+/*.text {
+    word-spacing: 10px;
+}*/
+
+/*
+text-indent
+Встановлює величину відступу першого рядка блоку тексту. 
+При змінюється, якщо нам потрібно створити щось типу червоного рядка.(абзац)
+*/
+
+/*.text {
+    text-indent: 50px;
+}*/
+
+/*
+white-space
+Керує властивостями пробілів між словами. Застосовується в основному зі значенням 
+nowrap яке забороняє перенесення рядка. 
+Таким чином весь текст відображається в один рядок і не ламається. 
+Значення normal поверне все як було.
+*/
+
+/*.text {
+    white-space: nowrap;
+}*/
+.text_7{
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-decoration: underline;
+	color: #862159;
+}
+.text_8{
+	font-size: 10px;
+	margin-bottom: 10px;
+	text-align: right;
+	color: #5a3248;
+}
+.list_item_5{
+	font-size: 15px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #3e4d31;
+}
+.list_item_6{
+	font-size: 25px;
+	margin-bottom: 10px;
+	text-align: left;
+	color: #7a6dd3;
+}
+.list_item_7{
+	font-size: 17px;
+	margin-bottom: 10px;
+	text-align: end;
+	color: #247955;
+}
+.list_item_8{
+	font-size: 14px;
+	margin-bottom: 10px;
+	text-indent: 100px;
+	color: #5eff00;
+}
+.list_item_9{
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #2600ff;
+}
+.list_item_10{
+	font-size: 23px;
+	margin-bottom: 10px;
+}
+
