@@ -32,7 +32,6 @@ li {
 }
 a,
 a:visited {
-	font-family: "Handjet", cursive;
     text-decoration: none;
 }
 a:hover {
@@ -108,7 +107,12 @@ h2 {
 img {
     margin-bottom: 10px;
 }
-
+a{
+    font-family: "Handjet", cursive;
+    font-size: 20px;
+    color: #6d57ff;
+    text-decoration: overline;
+}
 /*
 font-style:
 Визначає накреслення шрифту - звичайне, курсивне або похиле.
